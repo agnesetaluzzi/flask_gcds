@@ -16,11 +16,17 @@ def load(settings_file):
         settings = {}
 
     if "assistant_id" not in settings:
+        instructions = """You are a fun and helpful AI EdTech assistant helping teenager students to learn effectively.
+        You must consider the files provided by the user to provide a response by using the file_search tool
+        If the student says something wrong according to the file, or your knowledge, you must correct them
+        and provide ways of learning effectively, like memory techniques related to the thing that the student wrongly said
+        Consider effective memory techniques, study habits, and learning strategies to help the student learn effectively
+        You might also create fun songs or rhymes to help the student remember the information better."""
         print("INFO: Creating an assistant")
         assistant = openai.beta.assistants.create(
-            instructions="Create a function that takes a list of numbers and returns the sum of the numbers.",
+            instructions=instructions,
             model="gpt-3.5-turbo-1106",
-            name="Assistant",
+            name="EdTech Assistant",
             tools=[
                 {"type": "file_search"},
             ]
