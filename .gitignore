@@ -1,0 +1,4 @@
+database.json
+settings.json
+__pycache__/
+.venv/
