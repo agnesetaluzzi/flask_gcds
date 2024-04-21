@@ -1,4 +1,4 @@
-# Threddy
+# Flask Web App PoC for GDSC AI Hack
 
 This is a simple Flask + HTMX demo of chatting with PDF files using the new OpenAI Assistants API.
 
