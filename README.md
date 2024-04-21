@@ -1,3 +1,21 @@
+# MemorAI PoC
+
+This repository contains the PoC of the MemorAI Web App.
+
+It is a simple Flask + HTMX demo of chatting with PDF files using the OpenAI Assistants API.
+
+**For the complete experience please take a look at the [Figma Prototype](https://www.figma.com/proto/SmXAPb2kiJrl2pfzdJqIPN/EduTech?page-id=2%3A2&type=design&node-id=56-116&viewport=776%2C431%2C0.1&t=Ol40D2t2lFumEehO-1&scaling=scale-down&starting-point-node-id=56%3A116&show-proto-sidebar=1&mode=design)**.
+
+The OpenAI Assistants API is a powerful tool that enables the creation of custom AI assistants. These helpers, powered by OpenAI's advanced models and tools, such as File Search, are capable of handling various tasks like suggesting solutions, automating tasks, and providing personalized responses, while also supporting features like persistent threads and message history storage. You can find more information about the OpenAI Assistants API [here](https://beta.openai.com/docs/api-reference/assistants).
+
+If you prefer to utilize your own OpenAI personal assistant rather than the default MemorAI one (which was created based on a simulated user), create a ```settings.json``` file with:
+```
+{
+    "assistant_id": "<assistant_id>"
+}
+```
+Otherwise the standard MemorAI assistant will be created.
+
 ## Quick Start
 
 ### Prerequisites
