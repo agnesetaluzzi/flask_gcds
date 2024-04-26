@@ -1,8 +1,10 @@
 # MemorAI PoC
 
-This repository contains the PoC of the MemorAI Web App.
+This repository contains the PoC of the MemorAI Web App, a project implemented for the Google Developer Student Club AI Hack, April 20-21, 2024.
 
 It is a simple Flask + HTMX demo of chatting with PDF files using the OpenAI Assistants API.
+
+The team was composed by [Agnese Taluzzi](https://www.linkedin.com/in/agnesetaluzzi/) (me), [Marta Caterina Vignali](https://www.linkedin.com/in/marta-caterina-vignali-31595020b/), [Veronica Tappi](https://www.linkedin.com/in/veronicatappi/), and [Benedetta Luciano](https://www.linkedin.com/in/benedetta-luciano/).
 
 **For the complete experience please take a look at the [Figma Prototype](https://www.figma.com/proto/SmXAPb2kiJrl2pfzdJqIPN/EduTech?page-id=2%3A2&type=design&node-id=56-116&viewport=776%2C431%2C0.1&t=Ol40D2t2lFumEehO-1&scaling=scale-down&starting-point-node-id=56%3A116&show-proto-sidebar=1&mode=design)**.
 
